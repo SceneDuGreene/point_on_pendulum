@@ -2,7 +2,13 @@
 """
 Created on Mon Mar 28 10:58:09 2022
 
-@author: mike3
+@author: SceneDuGreene
+
+help from:
+1)  https://scipython.com/book2/chapter-7-matplotlib/problems/p77/animating-a-pendulum/
+2)  https://jeremykao.net/2017/07/03/simulating-a-simple-pendulum-in-python-part-1/
+
+
 """
 import numpy as np
 import matplotlib.pyplot as plt 
