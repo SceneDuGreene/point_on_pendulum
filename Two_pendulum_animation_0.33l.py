@@ -243,8 +243,8 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
                                frames=frames, interval=interval, blit=True, repeat=False)
 plt.xlabel("time (s)"); plt.ylabel(" Amplitude (m)")
 
-#f = r"c://Users/mike3/Desktop/pendulum_animation.gif"
-f = r"c://Users/mike3/OneDrive/Desktop/pendulum_theta_animation.gif"
+f = r"c://Users/[INSERT USER]/Desktop/point_on_circle.gif"
+
 writergif = animation.PillowWriter(fps=15)
 anim.save(f, writer=writergif)
 
